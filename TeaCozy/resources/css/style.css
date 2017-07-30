@@ -1,0 +1,137 @@
+html{
+  overflow: scroll;
+}
+body{
+  margin: 0px;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+/* header */
+
+header{
+  width: 100%;
+  height: 69px;
+  display: flex;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  justify-content: space-between;
+  align-items: center;
+}
+#logo{
+  width: auto;
+  height: 50px;
+  padding-left: 10px;
+}
+ul{
+  padding-left: 0px;
+}
+li{
+  list-style: none;
+  text-decoration: underline;
+  display: inline-block;
+  padding: 0 10px;
+}
+a{
+  color: seashell;
+}
+
+/* main */
+
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 70px;
+}
+
+
+#c1{
+  width: 1200px;
+  height: 700px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+}
+.headline{
+  background-color: black;
+  width: 100%;
+  align-items: center;
+}
+h2, h3, h4{
+  margin: 0 auto;
+  padding: 10px;
+}
+
+
+#c2{
+  max-width: 1000px;
+  min-height: 700px;
+  margin: 0px 100px;
+  padding-top: 70px;
+  justify-content: flex-start;
+  align-items: center;
+}
+#product_list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.product{
+  padding: 5px;
+}
+#product_list h4{
+  padding: 5px;
+}
+img{
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+}
+
+
+#c3{
+  width: 1200px;
+  min-height: 500px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  justify-content: flex-start;
+}
+#locations{
+  display: flex;
+  flex-direction: row;
+}
+.directions{
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  margin: 15px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+}
+
+/* footer */
+
+#contact{
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+}
+#copyright{
+  height: auto;
+  text-align: left;
+  padding-left: 20px;
+}
